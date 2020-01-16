@@ -176,3 +176,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Docker specific files
+CONTAINER_ALREADY_STARTED_PLACEHOLDER
