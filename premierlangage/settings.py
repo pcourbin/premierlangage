@@ -13,7 +13,7 @@ BASE_DIR = os.path.dirname(SETTINGS_DIR)
 APPS_DIR = os.path.realpath(os.path.join(BASE_DIR, APP_DIRNAME))
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('SECRET_KEY', "o!m$n&s4=kcftm1de1m+7!36a=8x38wrr)m9)i@ru7j-*c7vgm")
+SECRET_KEY = os.getenv('SECRET_KEY', 'defaultsecretkey')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False

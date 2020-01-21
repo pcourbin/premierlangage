@@ -7,7 +7,7 @@ else
 fi
 
 if [ -z "$PL_STATIC_FILES" ]; then
-  PL_STATIC_FILES_TEMP="false"
+  PL_STATIC_FILES_TEMP="true"
 else
   PL_STATIC_FILES_TEMP=$PL_STATIC_FILES
 fi
